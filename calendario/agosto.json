@@ -1,7 +1,8 @@
 [
 	{
 		"dia" : "1",
-		"atividade" : "DE – HERDEIRO",
+		"atividade" : "DE - Herdeiro",
+		"descricao" : "Atividade dedicada aos DEs Herdeiros (14 a 17 anos)",
 		"horario" : "10h",
 		"participam" : "DE Herdeiro",
 		"local" : "Kaikan"
@@ -9,18 +10,20 @@
 
 	{
 		"dia" : "2",
-		"atividade" : "Nenhuma programada para hoje",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
+		"atividade" : "Dia dos Grupos Horizontais",
+		"descricao" : "Dia exclusivo para as atividadesdos grupos",
+		"horario" : "&nbsp;",
+		"participam" : "Membros dos grupos",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "3",
 		"atividade" : "Nenhuma programada para hoje",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
 
 	{

@@ -93,7 +93,7 @@ for (i = 1; i < tamanhoDaLinha; i++) {
 				$("#selecionado").toggle();
 			});
 
-			newxhr.open("GET", "agosto-2015.json");
+			newxhr.open("GET", escreveMes+".json");
 			newxhr.send();
 					}
 
@@ -174,7 +174,7 @@ xhr.onreadystatechange = function() {
 };
 
 
-xhr.open("GET", "agosto-2015.json");
+xhr.open("GET", escreveMes+".json");
 xhr.send();
 
 document.getElementById("atualizadoem").innerHTML="<p>Última atualização em: 20/08/2015<br>Este site é uma iniciativa autônoma que visa apenas facilitar a divulgação da programação do bloco,<br> não possui ligação direta com a Brasil Soka Gakkai Internacional(BSGI)</p>";

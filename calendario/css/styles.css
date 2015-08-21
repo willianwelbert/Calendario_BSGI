@@ -17,6 +17,13 @@ td {
 	padding: 0;
 }
 
+#atualizadoem {
+	position: relative;
+	left: 22.5%;
+
+
+}
+
 .today {
 	
 	color: #fff;
@@ -198,17 +205,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 
 	 #atualizadoem {
 	 	font-size: 1em;
-	 	text-align: right;
-	 	width: 100%;
-	 	position: relative;
-	 	right: 3em;
-	 	margin-bottom: 3em;
+	 	left: 1em;
+	 	margin-bottom: 1em;
 
 	 }
 
 	 .calendar-container {
 	 	left: 0;
-	 	width: 100%;
+	 	width: 70%;
 	 	min-height: 7em;
 	 }
 
@@ -219,19 +223,65 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 	 }
 
 	 #titulo {
-	 	font-size: 3em;
-	 	padding-top: 1em;
-	 	position: relative;
+	 	font-size: 2.5em;
+	 	line-height: 1.2em;
+	 	padding-top: .5em;
+	 	padding-bottom: 1em;
+	 	max-width: 50%;
+	 	margin: 0;
+	 	margin-left: 22.5%;
+
+
 
 	 }
 
-	 .day {
-	 	font-size: 12em;
+	 
+
+	 #day {
+	 	font-size: 1.1em;
+	 	left: 2em;
+	 	
+	 	text-align: left;
+	 	/*margin-left: -25%;*/
+	 	
 	 }
 
-	 #calendario {
+	 /*#month {
+	 	margin-left: -25%;
+	 }*/
+
+	 
+
+
+	 #hoje {
+
+	 	position: absolute;
+	 	top: 25em;
+	 	left: 0;
+	 	background: #fff;
+	 	min-width: 100%;
+	 	height: 95%;
+
+	 }
+
+	 #hoje h3 {
+	 	margin-left: 45%;
+	 	font-size: 2.5em;
+
+	 }
+
+	 #hoje table {
+	 	font-size: 1.5em;
+	 	line-height: 1.5em;
+	 }
+
+
+
+	 #calendario{
 	 	width: 100%;
 	 	padding: 0;
+	 	position: absolute;
+	 	top: 65em;
 	 }
 
 
