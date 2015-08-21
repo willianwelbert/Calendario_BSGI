@@ -1,0 +1,240 @@
+
+body {
+	background: #eee;
+	font: 87.5%/1.5em 'Lato', sans-serif;
+	margin: 0;
+	
+
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+
+td {
+	padding: 0;
+}
+
+.today {
+	
+	color: #fff;
+	background-color: #e66b6b!important;
+}
+
+.passou,
+.passou:hover {
+	color: #fff;
+	background-color: #ccc!important;
+}
+
+#selecionado {
+	color: #fff;
+	background-color: #386599;
+}
+
+#titulo {
+	font-size: 1.5em;
+	max-height: 2em;
+	margin-top: -1em;
+	text-align: center;
+	color: #000;
+}
+
+.container {
+	height: 25em;
+	width: 35em;
+	position: absolute;
+	
+	top: 10%;
+	
+}
+
+.calendar-container {
+	position: relative;
+	width: 55em;
+	left: 22.5%;
+}
+
+.calendar-container header {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7ddf9+0,a7ddf9+72,386599+77,386599+80,f2ec85+84,f2ec85+87,cc6666+90,cc6666+94,a7ddf9+97 */
+background: #a7ddf9; /* Old browsers */
+background: -moz-linear-gradient(left,  #a7ddf9 0%, #a7ddf9 72%, #386599 77%, #386599 80%, #f2ec85 84%, #f2ec85 87%, #cc6666 90%, #cc6666 94%, #a7ddf9 97%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#a7ddf9), color-stop(72%,#a7ddf9), color-stop(77%,#386599), color-stop(80%,#386599), color-stop(84%,#f2ec85), color-stop(87%,#f2ec85), color-stop(90%,#cc6666), color-stop(94%,#cc6666), color-stop(97%,#a7ddf9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #a7ddf9 0%,#a7ddf9 72%,#386599 77%,#386599 80%,#f2ec85 84%,#f2ec85 87%,#cc6666 90%,#cc6666 94%,#a7ddf9 97%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #a7ddf9 0%,#a7ddf9 72%,#386599 77%,#386599 80%,#f2ec85 84%,#f2ec85 87%,#cc6666 90%,#cc6666 94%,#a7ddf9 97%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #a7ddf9 0%,#a7ddf9 72%,#386599 77%,#386599 80%,#f2ec85 84%,#f2ec85 87%,#cc6666 90%,#cc6666 94%,#a7ddf9 97%); /* IE10+ */
+background: linear-gradient(to right,  #a7ddf9 0%,#a7ddf9 72%,#386599 77%,#386599 80%,#f2ec85 84%,#f2ec85 87%,#cc6666 90%,#cc6666 94%,#a7ddf9 97%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', endColorstr='#a7ddf9',GradientType=1 ); /* IE6-9 */
+
+
+
+
+
+	
+
+	border-radius: 1em 1em 0 0;
+	/*background: #e66b6b;*/
+	color: #fff;
+	padding: 3em 2em;
+	max-width: 100%;
+	height: 12em;
+
+}
+
+.day {
+	font-size: 8em;
+	font-weight: 900;
+	line-height: 1em;
+	text-align: center;
+	color: #e66b6b;
+}
+
+.month {
+	font-size: 4em;
+	line-height: 1em;
+	text-transform: lowercase;
+	text-align: center;
+	color: #000;
+}
+
+.calendar {
+	background: #fff;
+	border-radius: 0 0 1em 1em;
+	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+	color: #555;
+	display: inline-block;
+	padding: 2em;
+	width: 50.9em;
+}
+
+.calendar thead {
+	color: #e66b6b;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.calendar td {
+	padding: .5em 1em;
+	text-align: center;
+}
+
+.calendar tbody td:hover {
+	background: #F2EC85;
+	color: #fff;
+}
+
+.current-day {
+	color: #e66b6b;
+}
+
+.prev-month,
+.next-month {
+	color: #cacaca;
+	visibility: hidden;
+}
+
+.ring-left,
+.ring-right {
+	position: absolute;
+	top: 230px;
+}
+
+.ring-left { left: 2em; }
+.ring-right { right: 2em; }
+
+.ring-left:before,
+.ring-left:after,
+.ring-right:before,
+.ring-right:after {
+	background: #fff;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+	box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+	content: "";
+	display: inline-block;
+	margin: 8px;
+	height: 32px;
+	width: 8px;
+}
+
+#hoje {
+	position: relative;
+	top: -21em;
+	left: 31em;
+	min-height: 18em;
+	max-width: 21em;
+	margin-right: 0;
+	border-left: 1px solid #ccc;
+}
+
+#hoje h3 {
+	font-family: 'Lato';
+	margin-left: 1em;
+	font-size: 2em;
+	font-weight: 700;
+	color: #e66b6b;
+}
+
+#hoje table {
+	width: 100%;
+	margin-left: 2em;
+
+}
+
+.sematividade {
+	font-size: 1em;
+
+}
+
+
+/*===celulares===*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)  {
+	
+
+	 #atualizadoem {
+	 	font-size: 1em;
+	 	text-align: right;
+	 	width: 100%;
+	 	position: relative;
+	 	right: 3em;
+	 	margin-bottom: 3em;
+
+	 }
+
+	 .calendar-container {
+	 	left: 0;
+	 	width: 100%;
+	 	min-height: 7em;
+	 }
+
+	 .calendar-container header {
+	 	width: 100%;
+	 	height: 25em;
+	 	padding: 0;
+	 }
+
+	 #titulo {
+	 	font-size: 3em;
+	 	padding-top: 1em;
+	 	position: relative;
+
+	 }
+
+	 .day {
+	 	font-size: 12em;
+	 }
+
+	 #calendario {
+	 	width: 100%;
+	 	padding: 0;
+	 }
+
+
+
+
+};

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Calendar</title>
+
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+<body>
+
+	<!-- <div class="container"> -->
+
+		<div id="atualizadoem"></div>
+
+		<div class="calendar-container">
+
+
+			<header>
+				
+				<p id="titulo">Calendário Interativo do Bloco Vila Leão</p>
+
+				<div class="day">
+				<span id="day"></span>
+				</div>
+
+				<div class="month">
+				<span id="month"></span>
+				</div>
+
+			</header>
+
+			<div id="corpo">
+
+			<table id="calendario" class="calendar">
+				
+				<thead>
+
+					<tr>
+
+						<td>Seg</td>
+						<td>Ter</td>
+						<td>Qua</td>
+						<td>Qui</td>
+						<td>Sex</td>
+						<td>Sab</td>
+						<td>Dom</td>
+
+					</tr>
+
+				</thead>
+
+				<tbody>
+
+					<tr>
+						<td class="prev-month">xx</td>
+						<td class="prev-month">xx</td>
+						<td class="prev-month">xx</td>
+						<td class="prev-month">xx</td>
+						<td class="prev-month">xx</td>
+						<td>1</td>
+						<td>2</td>
+					</tr>
+
+					<tr>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+						<td>7</td>
+						<td>8</td>
+						<td>9</td>
+					</tr>
+
+					<tr>
+						<td>10</td>
+						<td>11</td>
+						<td>12</td>
+						<td>13</td>
+						<td>14</td>
+						<td>15</td>
+						<td>16</td>
+					</tr>
+
+					<tr>
+						<td>17</td>
+						<td>18</td>
+						<td>19</td>
+						<td>20</td>
+						<td>21</td>
+						<td>22</td>
+						<td>23</td>
+					</tr>
+
+					<tr>
+						<td>24</td>
+						<td>25</td>
+						<td>26</td>
+						<td>27</td>
+						<td>28</td>
+						<td>29</td>
+						<td>30</td>
+					</tr>
+
+					<tr>
+						<td>31</td>
+						<!-- <td class="next-month">01</td>
+						<td class="next-month">02</td>
+						<td class="next-month">03</td>
+						<td class="next-month">04</td>
+						<td class="next-month">05</td>
+						<td class="next-month">??</td> -->
+					</tr>
+
+				</tbody>
+
+				
+
+			</table>
+
+			<div id="hoje">
+				<h3></h3>
+				
+				<table id="tabelaDeAtividades">
+					<tr>
+						<td>Dia:</td>
+						<td id="preencherDia"></td>
+					</tr>
+					<tr>
+						<td>Atividade:</td>
+						<td id="preencherAtividade"></td>
+					</tr>
+					<tr>
+						<td>Descrição:</td>
+						<td id="preencherDescricao"></td>
+					</tr>
+					<tr>
+						<td>Horário:</td>
+						<td id="preencherHorario"></td>
+					</tr>
+					<tr>
+						<td>Participam:</td>
+						<td id="preencherParticipam"></td>
+					</tr>
+					<tr>
+						<td>Local:</td>
+						<td id="preencherLocal"></td>
+					</tr>
+					
+
+				</table>
+				
+
+
+				
+			</div>
+
+			</div>
+
+			<!-- <div class="ring-left"></div>
+			<div class="ring-right"></div> -->
+
+		</div> <!-- end calendar-container -->
+
+	<!-- </div> --> <!-- end container -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="calendario.js"></script>
+	
+	
+</body>
+</html>
