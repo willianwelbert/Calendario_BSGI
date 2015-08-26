@@ -177,5 +177,5 @@ xhr.onreadystatechange = function() {
 xhr.open("GET", escreveMes+".json");
 xhr.send();
 
-document.getElementById("atualizadoem").innerHTML="<p>Última atualização em: 20/08/2015<br>Este site é uma iniciativa autônoma que visa apenas facilitar a divulgação da programação do bloco,<br> não possui ligação direta com a Brasil Soka Gakkai Internacional(BSGI)</p>";
+document.getElementById("atualizadoem").innerHTML="<p>Última atualização em: 20/08/2015<br>Este site é uma iniciativa autônoma que visa apenas facilitar a divulgação da programação do bloco, não possui ligação direta com a Brasil Soka Gakkai Internacional (BSGI)</p>";
 

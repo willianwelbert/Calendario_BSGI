@@ -1,45 +1,11 @@
-
-body {
-	background: #eee;
-	font: 87.5%/1.5em 'Lato', sans-serif;
-	margin: 0;
-	
-
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-
-}
-
-td {
-	padding: 0;
-}
-
 #atualizadoem {
-	position: relative;
-	left: 22.5%;
-
+	margin-top: 1em;
+	color: #666;
 
 }
 
-.today {
-	
-	color: #fff;
-	background-color: #e66b6b!important;
-}
 
-.passou,
-.passou:hover {
-	color: #fff;
-	background-color: #ccc!important;
-}
-
-#selecionado {
-	color: #fff;
-	background-color: #386599;
-}
+/*========== calendario/header ===========*/
 
 #titulo {
 	font-size: 1.5em;
@@ -49,20 +15,6 @@ td {
 	color: #000;
 }
 
-.container {
-	height: 25em;
-	width: 35em;
-	position: absolute;
-	
-	top: 10%;
-	
-}
-
-.calendar-container {
-	position: relative;
-	width: 55em;
-	left: 22.5%;
-}
 
 .calendar-container header {
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7ddf9+0,a7ddf9+72,386599+77,386599+80,f2ec85+84,f2ec85+87,cc6666+90,cc6666+94,a7ddf9+97 */
@@ -77,21 +29,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 
 
 
-
-
-	
-
 	border-radius: 1em 1em 0 0;
-	/*background: #e66b6b;*/
-	color: #fff;
 	padding: 3em 2em;
-	max-width: 100%;
-	height: 12em;
+	
+	min-height: 12em;
 
 }
 
 .day {
 	font-size: 8em;
+
 	font-weight: 900;
 	line-height: 1em;
 	text-align: center;
@@ -104,6 +51,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 	text-transform: lowercase;
 	text-align: center;
 	color: #000;
+}
+
+/*========== calendario/tabela ===========*/
+.passou,
+.passou:hover {
+	color: #fff;
+	background-color: #ccc!important;
+}
+
+.today {
+	
+	color: #fff;
+	background-color: #e66b6b!important;
+}
+
+.selecionado {
+	color: #fff;
+	background-color: #386599;
 }
 
 .calendar {
@@ -173,9 +138,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 	top: -21em;
 	left: 31em;
 	min-height: 18em;
-	max-width: 21em;
-	margin-right: 0;
+	
+	
 	border-left: 1px solid #ccc;
+	color: #222;
 }
 
 #hoje h3 {
@@ -205,84 +171,54 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 
 	 #atualizadoem {
 	 	font-size: 1em;
-	 	left: 1em;
-	 	margin-bottom: 1em;
+	 	margin-bottom: 2em;
+	 	margin-top: 1em;
 
 	 }
 
-	 .calendar-container {
-	 	left: 0;
-	 	width: 70%;
-	 	min-height: 7em;
-	 }
-
-	 .calendar-container header {
-	 	width: 100%;
-	 	height: 25em;
-	 	padding: 0;
-	 }
-
-	 #titulo {
-	 	font-size: 2.5em;
-	 	line-height: 1.2em;
-	 	padding-top: .5em;
-	 	padding-bottom: 1em;
-	 	max-width: 50%;
-	 	margin: 0;
-	 	margin-left: 22.5%;
-
-
-
-	 }
-
-	 
+	
+ 
 
 	 #day {
 	 	font-size: 1.1em;
 	 	left: 2em;
-	 	
 	 	text-align: left;
-	 	/*margin-left: -25%;*/
+	 	
 	 	
 	 }
-
-	 /*#month {
-	 	margin-left: -25%;
-	 }*/
-
-	 
 
 
 	 #hoje {
 
 	 	position: absolute;
-	 	top: 25em;
+	 	top: 22em;
 	 	left: 0;
 	 	background: #fff;
-	 	min-width: 100%;
-	 	height: 95%;
+	 	
+	 	
 
 	 }
 
 	 #hoje h3 {
-	 	margin-left: 45%;
 	 	font-size: 2.5em;
+	 	text-align: center;
 
 	 }
 
 	 #hoje table {
-	 	font-size: 1.5em;
+	 	
 	 	line-height: 1.5em;
 	 }
 
 
 
 	 #calendario{
-	 	width: 100%;
-	 	padding: 0;
+	 	
 	 	position: absolute;
-	 	top: 65em;
+	 	top: 20em;
+	 	display: inline;
 	 }
+
 
 
 
