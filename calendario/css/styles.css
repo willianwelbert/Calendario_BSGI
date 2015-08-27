@@ -177,12 +177,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 	 }
 
 	
- 
+ 	.day {
+ 		padding-top: .4em;
+ 	}
 
 	 #day {
-	 	font-size: 1.1em;
+	 	/*font-size: 1.1em;
 	 	left: 2em;
-	 	text-align: left;
+	 	text-align: left;*/
+
 	 	
 	 	
 	 }
@@ -201,13 +204,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 
 	 #hoje h3 {
 	 	font-size: 2.5em;
-	 	text-align: center;
+	 	margin-left:.75em;
+	 	margin-bottom: 1em;
+	 	width: 100%;
 
 	 }
 
 	 #hoje table {
 	 	
 	 	line-height: 1.5em;
+	 	width: 18em;
+	 }
+
+
+	 #hoje table td:nth-child(even) {
+	 	text-align: right;
 	 }
 
 
@@ -215,8 +226,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 	 #calendario{
 	 	
 	 	position: absolute;
-	 	top: 20em;
+	 	top: 18em;
 	 	display: inline;
+	 }
+
+	 #calendario::before {
+	 	content: "Selecione uma data < - >";
+	 	position: relative;
+	 	left: 50%;
+	 	
 	 }
 
 
