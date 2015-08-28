@@ -1,8 +1,7 @@
 #atualizadoem {
-	margin-top: 1em;
 	color: #666;
-
 }
+
 
 
 /*========== calendario/header ===========*/
@@ -31,8 +30,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 
 	border-radius: 1em 1em 0 0;
 	padding: 3em 2em;
-	
+	margin-top: 2em;
 	min-height: 12em;
+	max-width: 100%;
+	width: 100%;
 
 }
 
@@ -134,14 +135,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 }
 
 #hoje {
-	position: relative;
-	top: -21em;
-	left: 31em;
-	min-height: 18em;
-	
-	
-	border-left: 1px solid #ccc;
 	color: #222;
+	position: absolute;
+	right: 18em;
+	bottom: 7em;
+	width: 40%;
+	border-left: 1px solid #ccc;
+	
 }
 
 #hoje h3 {
@@ -154,13 +154,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 
 #hoje table {
 	width: 100%;
+	min-height: 12em;
 	margin-left: 2em;
+	border: 3px solid rgba(230, 107, 107, .2);
 
 }
+
+#hoje table td:nth-child(odd) {
+	background-color:  rgba(230, 107, 107, 1) ;
+	text-align: center;
+	width: 25%;
+	font-weight: 700;
+	color: #fff;
+}
+
+#hoje table td:nth-child(even) {
+	 	text-align: left;
+	 	padding-left: 1em;
+	 	background-color:  rgba(230, 107, 107, .2) ;
+	 	border-bottom: 1px dotted #ccc;
+	 }
 
 .sematividade {
 	font-size: 1em;
 
+}
+
+#calendario {
+	width: 100%;
 }
 
 
@@ -195,7 +216,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 
 	 	position: absolute;
 	 	top: 22em;
-	 	left: 0;
+	 	padding-left: 1.5em;
 	 	background: #fff;
 	 	
 	 	
@@ -206,19 +227,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 	 	font-size: 2.5em;
 	 	margin-left:.75em;
 	 	margin-bottom: 1em;
-	 	width: 100%;
+	 	min-width: 7em;
 
 	 }
 
 	 #hoje table {
 	 	
 	 	line-height: 1.5em;
-	 	width: 18em;
+	 	width: 20.5em;
+	 }
+
+	 #hoje table td {
+	 	height: 2.2em;
+
+	 }
+
+	 #hoje table td:nth-child(odd) {
+	 	width: 35%;
 	 }
 
 
 	 #hoje table td:nth-child(even) {
 	 	text-align: right;
+	 	padding-right: 1em;
+
+
 	 }
 
 
@@ -226,8 +259,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 	 #calendario{
 	 	
 	 	position: absolute;
-	 	top: 18em;
+	 	margin-top: 2em;
+	 	top: 23em;
 	 	display: inline;
+	 	height: 21em;
 	 }
 
 	 #calendario::before {
@@ -235,6 +270,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7ddf9', end
 	 	position: relative;
 	 	left: 50%;
 	 	
+	 }
+
+	 #atualizadoem {
+	 	position: absolute;
+	 	margin-top: 1em;
+	 	top: 69em;
 	 }
 
 
