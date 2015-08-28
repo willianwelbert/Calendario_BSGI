@@ -19,7 +19,7 @@
 
 	{
 		"dia" : "3",
-		"atividade" : "Nenhuma programada para hoje",
+		"atividade" : "Não haverá atividade",
 		"descricao" : "&nbsp;",
 		"horario" : "&nbsp;",
 		"participam" : "&nbsp;",
@@ -28,72 +28,81 @@
 
 	{
 		"dia" : "4",
-		"atividade" : "Nenhuma programada para hoje",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "5",
-		"atividade" : "Nenhuma programada para hoje",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "6",
-		"atividade" : "Nenhuma programada para hoje",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
+		"atividade" : "Encontro da DE do destrito",
+		"descricao" : "Encontro de Pais e DEs do Distrito Brasil",
+		"horario" : "19h",
+		"participam" : "DE + Pais",
+		"local" : "Deise"
 	},
 
 	{
 		"dia" : "7",
-		"atividade" : "Nenhuma programada para hoje",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
+		"atividade" : "SIK 2030 + Família Criativa",
+		"descricao" : "Encontro dos Sucessores Ikeda 2030 + Pais e responsáveis",
+		"horario" : "&nbsp;",
+		"participam" : "DE + Pais",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "8",
-		"atividade" : "Nenhuma programada para hoje",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "9",
-		"atividade" : "Nenhuma programada para hoje",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "10",
-		"atividade" : "Nenhuma programada para hoje",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
+		"atividade" : "Estudo da Comunidade",
+		"descricao" : "Estudo focado nas matérias do Exame de Admissão",
+		"horario" : "19h",
+		"participam" : "Todos",
+		"local" : "Rodrigo"
 	},
 
 	{
 		"dia" : "11",
-		"atividade" : "Nenhuma programada para hoje",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
-		
+
 	{
 		"dia" : "12",
 		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
+		"descricao" : "Bloco Monarca com atividadesde diálogo com membros e Shakubukus",
+		"horario" : "19h",
 		"participam" : "Todos",
 		"local" : "Dedé"
 	},
@@ -101,154 +110,172 @@
 	{
 		"dia" : "13",
 		"atividade" : "Daimoku da Vitória",
-		"horario" : "das 19h às 20h30",
+		"descricao" : "Será feita 1h de Daimoku e depois 30 min de diálogo",
+		"horario" : "19h às 20h30",
+		"participam" : "Todos",
+		"local" : "Rodrigo"
+		
+	},
+
+	{
+		"dia" : "14",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "15",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "16",
+		"atividade" : "Reunião de Duni",
+		"descricao" : "Reunião especial para membros da Divisão dos Universitários",
+		"horario" : "16h",
+		"participam" : "DJ",
+		"local" : "Kaikan"
+	},
+
+	{
+		"dia" : "17",
+		"atividade" : "Estudo da Comunidade",
+		"descricao" : "Estudo focado nas matérias do Exame de Admissão",
+		"horario" : "19h",
 		"participam" : "Todos",
 		"local" : "Rodrigo"
 	},
 
 	{
-		"dia" : "14",
-		"atividade" : "Nenhuma programada para hoje",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
-	},
-
-	{
-		"dia" : "15",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
-		"participam" : "Todos",
-		"local" : "Dedé"
-	},
-
-	{
-		"dia" : "16",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
-		"participam" : "Todos",
-		"local" : "Dedé"
-	},
-
-	{
-		"dia" : "17",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
-		"participam" : "Todos",
-		"local" : "Dedé"
-	},
-
-	{
 		"dia" : "18",
-		"atividade" : "",
-		"descricao" : "",
-		"horario" : "",
-		"participam" : "",
-		"local" : ""
+		"atividade" : "Ensaio Yakushin",
+		"descricao" : "Ensaio do grupo de dança da DF",
+		"horario" : "19h",
+		"participam" : "DF",
+		"local" : "Kaikan"
 	},
 
 	{
 		"dia" : "19",
 		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
+		"descricao" : "Bloco Monarca com atividadesde diálogo com membros e Shakubukus",
+		"horario" : "19h",
 		"participam" : "Todos",
 		"local" : "Dedé"
 	},
 
 	{
 		"dia" : "20",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
-		"participam" : "Todos",
-		"local" : "Dedé"
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "21",
-		"atividade" : "will2",
-		"horario" : "das 19h33 às 28h30",
-		"participam" : "Todos",
-		"local" : "will"
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "22",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
-		"participam" : "Todos",
-		"local" : "Dedé"
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "23",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
-		"participam" : "Todos",
-		"local" : "Dedé"
+		"atividade" : "Daimoku DS | Reunião de Palestra",
+		"descricao" : "&nbsp;",
+		"horario" : "7h às 9h | 9h30",
+		"participam" : "DS | Todos",
+		"local" : "A conf. | Meire"
 	},
 
 	{
 		"dia" : "24",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
+		"atividade" : "Estudo da Comunidade",
+		"descricao" : "Estudo focado nas matérias do Exame de Admissão",
+		"horario" : "19h",
 		"participam" : "Todos",
-		"local" : "Dedé"
+		"local" : "Rodrigo"
 	},
 
 	{
 		"dia" : "25",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
-		"participam" : "Todos",
-		"local" : "Dedé"
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "26",
 		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
+		"descricao" : "Bloco Monarca com atividadesde diálogo com membros e Shakubukus",
+		"horario" : "19h",
 		"participam" : "Todos",
 		"local" : "Dedé"
 	},
 
 	{
 		"dia" : "27",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
-		"participam" : "Todos",
-		"local" : "Dedé"
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "28",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
-		"participam" : "Todos",
-		"local" : "Dedé"
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
 	},
 
 	{
 		"dia" : "29",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
-		"participam" : "Todos",
-		"local" : "Dedé"
+		"atividade" : "Encontro da amizade",
+		"descricao" : "DF + DFJ e DS + DMJ",
+		"horario" : "16h",
+		"participam" : "grupos + convidados",
+		"local" : "Ivana - DF + DFJ | Rodrigo DS + DMJ"
 	},
 
 	{
 		"dia" : "30",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
+		"atividade" : "Encontro com o Mestre",
+		"descricao" : "Atividade com apresentação de vídeo de atividades no Japão com concessões",
+		"horario" : "18h",
 		"participam" : "Todos",
-		"local" : "Dedé"
+		"local" : "Kaikan"
 	},
 
 	{
 		"dia" : "31",
-		"atividade" : "Bloco Monarca",
-		"horario" : "das 19h às 20h30",
+		"atividade" : "Budismo e Sociedade",
+		"descricao" : "Estudo do Budismo na vidadiária (Budismo e Sociedade –Tema: Corrupção)",
+		"horario" : "19h",
 		"participam" : "Todos",
-		"local" : "Dedé"
+		"local" : "Rodrigo"
 	}
-
 ]
