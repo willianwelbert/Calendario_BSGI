@@ -1,0 +1,272 @@
+[
+	{
+		"dia" : "1",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "2",
+		"atividade" : "Bloco Monarca",
+		"descricao" : "Bloco Monarca com atividades de diálogo com membros e Shakubukus",
+		"horario" : "19h",
+		"participam" : "Todos",
+		"local" : "Dedé"
+	},
+
+	{
+		"dia" : "3",
+		"atividade" : "DE - ENCONTRO DE DIST BRASIL",
+		"descricao" : "Atividade da DE especial parapais e filhos com dinâmicas",
+		"horario" : "19h",
+		"participam" : "DE + Pais",
+		"local" : "Deise"
+	},
+
+	{
+		"dia" : "4",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "5",
+		"atividade" : "SIK 2030 + FAMILIA CRIATIVA",
+		"descricao" : "Sucessores Ikeda 2030 em uma atividade lúdica",
+		"horario" : "A confirmar",
+		"participam" : "DE + Pais",
+		"local" : "A confirmar"
+	},
+
+	{
+		"dia" : "6",
+		"atividade" : "DIA DOS GRUPOS HORIZONTAIS",
+		"descricao" : "Atividades dos grupos horizontais (por grupo)",
+		"horario" : "A confirmar",
+		"participam" : "MEMBROS DOS GRUPOS",
+		"local" : "A confirmar"
+	},
+
+	{
+		"dia" : "7",
+		"atividade" : "Feriado de 07 de setembro",
+		"descricao" : "Sem atividade",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "8",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "9",
+		"atividade" : "Bloco Monarca",
+		"descricao" : "Bloco Monarca com atividades de diálogo com membros e Shakubukus",
+		"horario" : "19h",
+		"participam" : "Todos",
+		"local" : "Dedé"
+	},
+
+	{
+		"dia" : "10",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "11",
+		"atividade" : "TIKUBUTYOKAI",
+		"descricao" : "Reunião de líderes de comunidade",
+		"horario" : "19h",
+		"participam" : "LÍDERES DE COMUNIDADE",
+		"local" : "Andrea"
+	},
+
+	{
+		"dia" : "12",
+		"atividade" : "• HANTYOKAI | • IKEDA KAYOKAI",
+		"descricao" : "• Reunião de líderes de bloco | • Reunião especial da DFJ para membros da divisão",
+		"horario" : "• 9h | • A confirmar",
+		"participam" : "• Líderes de Bloco | • DFJ",
+		"local" : "• Meire | • A confirmar"
+	},
+
+	{
+		"dia" : "13",
+		"atividade" : "• KOFU | • Grupo Muitos Tesouros",
+		"descricao" : "• Recepção do Kofu e reunião dos membros |<br>• Membros acima de 55 anos para atividade de incentivos",
+		"horario" : "• 9h | • 16h",
+		"participam" : "MEMBROS",
+		"local" : "• Meire | • Kaikan"
+		
+	},
+
+	{
+		"dia" : "14",
+		"atividade" : "Estudo da Comunidade",
+		"descricao" : "Estudo focado nas matérias do Exame de Admissão",
+		"horario" : "19h",
+		"participam" : "Todos",
+		"local" : "Rodrigo"
+	},
+
+	{
+		"dia" : "15",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "16",
+		"atividade" : "Bloco Monarca",
+		"descricao" : "Bloco Monarca com atividades de diálogo com membros e Shakubukus",
+		"horario" : "19h",
+		"participam" : "Todos",
+		"local" : "Dedé"
+	},
+
+	{
+		"dia" : "17",
+		"atividade" : "Daimoku da Vitória",
+		"descricao" : "Será feita 1h de Daimoku e depois 30 min de diálogo",
+		"horario" : "19h",
+		"participam" : "Todos",
+		"local" : "Meire"
+	},
+
+	{
+		"dia" : "18",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "19",
+		"atividade" : "Encontro com o Mestre",
+		"descricao" : "Vídeo de direcionamentos direto do Japão e incentivos",
+		"horario" : "16h",
+		"participam" : "Todos",
+		"local" : "Kaikan"
+	},
+
+	{
+		"dia" : "20",
+		"atividade" : "• CAPRI DO GRUPO ALVORADA | • REUNIÃO DE SHAKUBUKU",
+		"descricao" : "• Curso de Aprimoramento do Grupo Alvorada (45 anos) | • Reunião de Shakubuku para incentivos e entendimento",
+		"horario" : "• 9h | • 10h",
+		"participam" : "• DS até 45 anos | • Todos",
+		"local" : "• A confirmar | • Nildes"
+	},
+
+	{
+		"dia" : "21",
+		"atividade" : "Estudo da Comunidade",
+		"descricao" : "Estudo focado nas matérias do Exame de Admissão",
+		"horario" : "19h",
+		"participam" : "Todos",
+		"local" : "Rodrigo"
+	},
+
+	{
+		"dia" : "22",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "23",
+		"atividade" : "Bloco Monarca",
+		"descricao" : "Bloco Monarca com atividades de diálogo com membros e Shakubukus",
+		"horario" : "19h",
+		"participam" : "Todos",
+		"local" : "Dedé"
+	},
+
+	{
+		"dia" : "24",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "25",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "26",
+		"atividade" : "Intensivão de Estudo",
+		"descricao" : "Atividade especial de revisão e preparo para o Exame",
+		"horario" : "15h",
+		"participam" : "Todos",
+		"local" : "Chalé Francês (MACS) <a href='https://goo.gl/maps/YD6gX' target='_blank'>Clique e veja o local</a>"
+	},
+
+	{
+		"dia" : "27",
+		"atividade" : "Exame do Budismo",
+		"descricao" : "Exame para todos os inscritos (chegar 1h antes)",
+		"horario" : "10h",
+		"participam" : "Membros Inscritos",
+		"local" : "A confirmar"
+	},
+
+	{
+		"dia" : "28",
+		"atividade" : "Estudo da Comunidade",
+		"descricao" : "BUDISMO NA SOCIEDADE sobre assuntos atuais",
+		"horario" : "19h",
+		"participam" : "Todos",
+		"local" : "Rodrigo"
+	},
+
+	{
+		"dia" : "29",
+		"atividade" : "Não haverá atividade",
+		"descricao" : "&nbsp;",
+		"horario" : "&nbsp;",
+		"participam" : "&nbsp;",
+		"local" : "&nbsp;"
+	},
+
+	{
+		"dia" : "30",
+		"atividade" : "BVD",
+		"descricao" : "Budismo na Vida Diária",
+		"horario" : "19h",
+		"participam" : "Todos",
+		"local" : "Meire"
+	}
+]
